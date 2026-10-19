@@ -30,7 +30,7 @@ Body: what is needed or what was done, self-contained, no reliance on memory of 
 Refs: IDs of related entries, files, or links (optional)
 ```
 
-- Time zone is Asia/Karachi (PKT, UTC+05:00). If you can't read the clock (shell and time APIs may be blocked), ask Josh for the time instead of guessing.
+- Time zone is Asia/Karachi (PKT, UTC+05:00). Get the time by calling the ThinkSL8 tool `current_time` (it returns the PKT time to put in the header). Only if that tool is missing, ask Josh for the time instead of guessing.
 - IDs are sequential, four digits: read the canvas and use the next number after the highest one.
 - STATUS is one of `open`, `done`, `blocked`, `needs-josh`. When you finish a request, add a new entry with STATUS `done` and Refs pointing at the request ID. Say why in the body if `blocked`.
 - The first line must keep this exact shape. ThinkSL8 alerts match on text like `TO: Jet`.

@@ -1,6 +1,6 @@
 {
   "name": "claude-bridge",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Shared, documented message log between two Claude instances, plus the ThinkSL8 connector.",
   "author": {
     "name": "Nastaliq"
