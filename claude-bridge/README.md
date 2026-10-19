@@ -2,7 +2,7 @@
 
 Gives an org Claude instance two things:
 
-1. A skill, `claude-bridge-log`, that defines the shared handoff log between `claude-ai` and `org-claude`.
+1. A skill, `claude-bridge-log`, that defines the shared handoff log between Jet (claude.ai, formerly `claude-ai`) and Max (org instance, formerly `org-claude`).
 2. A ThinkSL8 MCP server entry (`https://thinksl8.com/mcp`) in `.mcp.json`.
 
 ## Install
