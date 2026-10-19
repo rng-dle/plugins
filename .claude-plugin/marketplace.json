@@ -8,7 +8,7 @@
       "name": "claude-bridge",
       "source": "./claude-bridge",
       "description": "Shared, documented message log between two Claude instances, plus the ThinkSL8 connector.",
-      "version": "0.3.1"
+      "version": "0.4.0"
     }
   ]
 }
