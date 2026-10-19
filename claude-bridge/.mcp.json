@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "thinksl8": {
+      "type": "http",
+      "url": "https://thinksl8.com/mcp"
+    }
+  }
+}
