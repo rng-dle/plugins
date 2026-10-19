@@ -14,5 +14,6 @@ Gives an org Claude instance two things:
 ## Check before relying on it
 
 - If your admin blocks custom connectors, the plugin's `.mcp.json` may be ignored or rejected. Ask the admin before trying to get around it.
-- The ThinkSL8 connector exposes canvas reading and search. Its write tools only handle voice notes (audio plus transcript), so the log itself is best kept as `BRIDGE-LOG.md` in a shared folder, with ThinkSL8 used for reading.
+- The log is the ThinkSL8 canvas "Claude Bridge Log". Connect ThinkSL8 with both boxes ticked (adding, and editing/deleting) so `add_note` works.
+- `thinksl8.com` must be reachable from the org instance. If its tools don't appear, add ThinkSL8 under Connectors in the org settings so it lands on the Egress allowlist.
 - This package has not been test-installed in your org.

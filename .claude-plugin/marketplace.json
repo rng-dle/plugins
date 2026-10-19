@@ -1,11 +1,14 @@
 {
   "name": "nastaliq-plugins",
-  "owner": { "name": "Nastaliq" },
+  "owner": {
+    "name": "Nastaliq"
+  },
   "plugins": [
     {
       "name": "claude-bridge",
       "source": "./claude-bridge",
-      "description": "Shared, documented message log between two Claude instances, plus the ThinkSL8 connector."
+      "description": "Shared, documented message log between two Claude instances, plus the ThinkSL8 connector.",
+      "version": "0.2.0"
     }
   ]
 }
